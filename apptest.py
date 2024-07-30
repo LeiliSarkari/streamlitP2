@@ -21,7 +21,7 @@ def construct_image_url(file_path, file_size='w500'):
     return None
 
 # Lire le fichier Excel
-file_path = r'C:\Users\wissa\Downloads\projet2\merged_df.xls'
+file_path = 'merged_df.xls'
 df = pd.read_csv(file_path)  # Corrigez si le fichier est un Excel
 
 # Convertir release_date en format datetime
